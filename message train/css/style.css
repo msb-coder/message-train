@@ -1,0 +1,171 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x : hidden;
+    background: #f1f1f1;
+}
+
+img{
+    width: 100%;
+}
+.bg-white{
+    background: #fff;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url('../font/Gilroy-Semibold.woff');
+}
+@font-face {
+    font-family: mySecondFont;
+    src: url('../font/Gilroy-Light.otf');
+}
+@font-face {
+    font-family: myThirdFont;
+    src: url('../font/Gilroy-Regular.ttf');
+}
+@font-face {
+    font-family: myForthFont;
+    src: url('../font/Gilroy-ExtraBold.ttf');
+}
+
+/* navbarsect */
+#navbarsect nav{
+    background: #003334;
+}
+#navbarsect ul li a{
+    color: #fff;
+    font-size: 15px;
+    font-family: myFirstFont;
+}
+
+/* bannerhere */
+.bannerhere{
+    background-image: url("../img/home/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.heighthere{
+    height: 100vh;
+}
+.bannerhead{
+    color: #fff;
+    font-size: 37px;
+    font-family: myFirstFont;
+}
+.fourpara{
+    color: #003334;
+    font-size: 22px;
+    text-align: center;
+    font-family: myThirdFont;
+}
+
+/* client */
+.clienthead{
+    font-size: 31px;
+    font-family: myFirstFont;
+    color: #003334;
+}
+
+/* carouse000l */
+#carouselarea{
+    background: #f1f1f1;
+}
+.boxwhite{
+    background: #fff;
+    border-radius: 4px;
+}
+.textherecaro{
+    color: #003334;
+    font-size: 14px;
+    font-family: myFirstFont;
+}
+#carouselarea .carousel-indicators{
+    bottom: -70px;
+}
+#carouselarea .carousel-indicators button{
+    border-radius: 50%;
+    width: 20px;
+    background: #003334;
+}
+
+/* rangeimg */
+.rangeimg{
+    background-image: url("../img/home/range-service.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.heighthere2{
+    height: 100vh;
+}
+.rangehead{
+    color: #003334;
+    font-size: 37px;
+    font-family: myFirstFont;
+}
+.rangepara{
+    color: #003334;
+    font-size: 25px;
+    font-family: myThirdFont;
+}
+.casebtn{
+    border-radius: 28px;
+    background-color: #02758e;
+    padding: 8px 15px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+/* footer */
+.footerbghere{
+    background-image: url("../img/footer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.heighthere3{
+    height: 60vh;
+}
+.listfooter li{
+    list-style-type: none;
+}
+.listfooter li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    font-family: myThirdFont;
+}
+.footerpara{
+    color: #fff;
+    font-size: 12px;
+    font-family: myThirdFont;
+}
+#footersect p{
+    color: #fff;
+    font-size: 13px;
+    font-family: myThirdFont;
+}
+#footersect p i{
+    font-size: 13px;
+    padding-right: 12px;
+}
+#footersect .smtext{
+    font-size: 11px;
+    font-family: myThirdFont;
+}
+.footerlinkhead{
+    color: #f25e1f;
+    font-size: 16px;
+    font-family: myForthFont;
+}
+.padtop{
+    padding-top: 50px;
+}

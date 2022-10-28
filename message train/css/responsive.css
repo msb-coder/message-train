@@ -1,0 +1,28 @@
+@media screen and (max-width: 768px) {
+    .bannerhead{
+        font-size: 24px;
+    }
+    .fourpara{
+        font-size: 23px;
+    }
+    .rangeimg{
+        background-image: url("../img/home/tab/range-bg-tab.png");
+        background-position-x: -165px;
+    }
+    .bannerhere{
+        background-image: url("../img/home/tab/banner-md.png");
+        background-position-x: -185px;
+    }
+    .clienthead{
+        font-size: 20px;
+    }
+    .rangehead{
+        font-size: 24px;
+    }
+    .rangepara{
+        font-size: 16px;
+    }
+    .casebtn{
+        font-size: 14px;
+    }
+}
